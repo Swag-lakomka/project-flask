@@ -1,0 +1,21 @@
+{% extends  'base.html' %}
+
+{% block title %}
+Главная страница
+{% endblock %}
+
+{% block body %}
+<link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
+<header class="header">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 offset-lg-2 header-content">
+                <h1>Воздушные силы России</h1>
+                <h4>Материалы об отечественной технике</h4>
+
+            </div>
+        </div>
+    </div>
+    <div class="overlay"></div>
+</header>
+{%endblock%}

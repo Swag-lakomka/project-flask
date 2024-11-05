@@ -1,0 +1,46 @@
+body {
+    background-image: url(
+    https://i.pinimg.com/originals/a7/89/1d/a7891d13c0fd95d831753e13a91effbe.jpg);
+    background-size: 1400px 1000px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: 50% 50%;
+
+    position: relative;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 16px;
+    line-height: 1.4;
+    color: #000;
+    min-height: 320px;
+    overflow-x: hidden;
+    height: auto;
+}
+
+
+
+.header .row {
+    min-height: 700px;
+    display: flex;
+    align-items: center;
+}
+
+.header-content {
+    text-align: center;
+    position: relative;
+    z-index: 2;
+    color: #fff;
+}
+
+.header-content h1 {
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.header-content h4 {
+    font-size: 21px;
+    font-weight: 400;
+    margin-bottom: 10px;
+    opacity: 0.7;
+    margin-bottom: 35px
+}
