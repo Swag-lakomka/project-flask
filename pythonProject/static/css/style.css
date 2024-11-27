@@ -1,7 +1,7 @@
 body {
     background-image: url(
     https://avatars.mds.yandex.net/i?id=c71024a1ad8c4eb13ab9d8954a812f5a8f34ba52de27ad6e-5239820-images-thumbs&n=13);
-    background-size: 1400px 1000px;
+    background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: 50% 50%;
@@ -56,10 +56,33 @@ body {
 
 .navbar-brand {
     font-weight: 700;
-    font-size: 26px;
+    font-size: 30px;
     transition: all .07s ease-in-out
 }
 
 .navbar-brand:hover {
     color: coral;
+}
+@media screen and (max-width: 1200px) {
+    .navbar-brand {
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 998px) {
+        .navbar-brand {
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+        .navbar-brand {
+            font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+        .navbar-brand {
+            font-size: 19px;
+    }
 }
